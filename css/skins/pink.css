@@ -1,0 +1,28 @@
+
+
+.preloader .loader i,
+.event-section .event-item-inner span,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+header .nav ul li a:hover{
+    color: #fb839e;
+}
+.event-section .event-item-inner :before,
+.couple-section .couple img{
+    border-color: #fb839e;
+}
+.preloader .loader:before{
+    border-right-color: #fb839e;
+}
+.setting .s-toggle-btn,
+.footer,
+body.dark .families-section .filter-btn.active,
+.families-section .filter-btn.active,
+.event-section,
+.couple-section a:hover i{
+    background-color: #fb839e;
+}
+

@@ -1,0 +1,30 @@
+
+.preloader .loader i,
+.event-section .event-item-inner span,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+header .nav ul li a:hover{
+    color: #f4ca16 ;
+}
+.event-section .event-item-inner :before,
+.couple-section .couple img{
+    border-color: #f4ca16 ;
+}
+.preloader .loader:before{
+    border-right: 3px solid #f4ca16;
+}
+.setting .s-toggle-btn,
+.footer,
+body.dark .families-section .filter-btn.active,
+.families-section .filter-btn.active,
+.event-section,
+.couple-section a:hover i{
+    background-color: #f4ca16 ;
+}
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img{
+    filter: hue-rotate(220deg);
+}

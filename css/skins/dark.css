@@ -1,0 +1,36 @@
+
+.preloader .loader i,
+.event-section .event-item-inner span,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+header .nav ul li a:hover{
+    color: #232b2b;
+}
+.event-section .event-item-inner :before,
+.couple-section .couple img{
+    border-color: #232b2b;
+}
+.preloader .loader:before{
+    border-right: 3px solid #232b2b;
+}
+.setting .s-toggle-btn,
+.footer,
+body.dark .families-section .filter-btn.active,
+.families-section .filter-btn.active,
+.event-section,
+.couple-section a:hover i{
+    background-color: #232b2b;
+}
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img{
+    filter: hue-rotate(451deg);
+}
+.footer-content .couple-name h2{
+    color: #ffffff;
+}
+.footer .footer-section p{
+    color: #ffffff;
+}
