@@ -8,14 +8,18 @@ body.dark .header .nav ul li a.active,
 header .nav ul li a.active,
 body.dark .header .nav ul li a:hover,
 header .nav ul li a:hover{
-    color: #fb839e;
+    color: #ffc87c;
 }
 .event-section .event-item-inner :before,
 .couple-section .couple img{
-    border-color: #fb839e;
+    border-color: #ffc87c;
 }
 .preloader .loader:before{
-    border-right-color: #fb839e;
+    border-right-color: #ffc87c;
+}
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img{
+    filter: hue-rotate(396rad);
 }
 .setting .s-toggle-btn,
 .footer,
@@ -23,6 +27,6 @@ body.dark .families-section .filter-btn.active,
 .families-section .filter-btn.active,
 .event-section,
 .couple-section a:hover i{
-    background-color: #fb839e;
+    background-color: #ffc87c;
 }
 

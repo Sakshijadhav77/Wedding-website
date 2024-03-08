@@ -3,8 +3,13 @@
 const color=[
     {
         name:'pink',
-        code:'#fb839e',
+        code:'#ffc87c',
         url:'css/skins/pink.css'
+    },
+    {
+        name:'dark',
+        code:'#00dbdb',
+        url:'css/skins/dark.css'
     },
     {
         name:'yellow',
