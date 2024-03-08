@@ -7,11 +7,6 @@ const color=[
         url:'css/skins/pink.css'
     },
     {
-        name:'dark',
-        code:'#232b2b ',
-        url:'css/skins/dark.css'
-    },
-    {
         name:'yellow',
         code:'#f4ca16 ',
         url:'css/skins/blue.css'

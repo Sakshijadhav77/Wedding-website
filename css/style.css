@@ -350,9 +350,11 @@ footer{
 
 }
 .couple-section .couple p{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     color: #555555;
+    font-family:"DM Serif Display",serif;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -361,7 +363,7 @@ footer{
     padding: 80px 0 130px;
 }
 .event-section .section-title h2{
-    color: #ffffff;
+    color: #000000;
 }
 .event-section .event-item{
     flex: 0 0 33.33%;
@@ -549,17 +551,20 @@ body.dark .header.fixed{
 .footer .footer-content .couple-name h2,
 body.dark .families-section .filter-btn.active,
 body.dark .event-section .event-item-inner h3,
-body.dark .section-title h2,
-body.dark .header .nav ul li a,
-body.dark .header.fixed .nav ul li a,
+body.dark .event-section .section-title h2,
 body.dark .header.fixed .logo a{
-    color: #ffffff;
+    color: #000000;
 }
 body.dark p.copyright-text,
 body.dark .families-section .filter-btn,
 body.dark .event-section .event-item-inner p,
 body.dark .couple-section .couple p{
     color: #bbbbbb;
+}
+body.dark .header .nav ul li a,
+body.dark .section-title h2,
+body.dark .event-section .event-item-inner h3{
+    color: #ffffff;
 }
 body.dark .header.fixed .hamburger-btn{
     border-color: #ffffff;
