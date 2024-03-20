@@ -5,16 +5,6 @@ const color=[
         name:'pink',
         code:'#ffc87c',
         url:'css/skins/pink.css'
-    },
-    {
-        name:'dark',
-        code:'#00dbdb',
-        url:'css/skins/dark.css'
-    },
-    {
-        name:'yellow',
-        code:'#f4ca16 ',
-        url:'css/skins/blue.css'
     }
 ]
 
