@@ -47,18 +47,38 @@ $(document).ready(function(){
         $.scrollIt({
             topOffset: -50
         });
-      
+    })
 
     //families filter
-    familiesFilter($(".filter-btn.active").attr("data-target"))
-    $(".filter-btn").click(function(){
-    familiesFilter($(this).attr("data-target"))
+    // $(document).ready(function(){
+        
+    //     familiesFilter($(".filter-btn.active").attr("data-target"))
+    //     $(".filter-btn").click(function(){
+    //         familiesFilter($(this).attr("data-target"))
+    //     })
+    //     function familiesFilter(target){
+    //         console.log(target)
+    //         $(".fliter-btn").removeClass("active");
+    //         $(".filter-btn[data-target='"+target+"']").addClass("active");
+    //         $(".families-item").hide();
+    //         $(".families-item[data-category='"+target+"' ").fadeIn();
+    //     }
+    // })
+    $(document).ready(function(){
+        familiesFilter($(".filter-btn.active").attr("data-target"))
+        $(".filter-btn").click(function(){
+            if($(this).hasClass("active")){
+                return;
+            }
+            else{
+
+                familiesFilter($(this).attr("data-target"))
+            }
+        })
+        function familiesFilter(target){
+            $(".filter-btn").removeClass("active");
+            $(".filter-btn[data-target='"+target+"']").addClass("active");
+            $(".families-item").hide();
+            $(".families-item[data-category='"+target+"']").fadeIn();
+        }
     })
-    function familiesFilter(target){
-        console.log(target)
-        $(".fliter-btn").removeClass("active");
-        $(".filter-btn[data-target='"+target+"']").addClass("active");
-        $(".families-item").hide();
-        $(".families-item[data-category='"+target+"' ").fadeIn();
-    }
-})
