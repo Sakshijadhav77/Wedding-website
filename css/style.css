@@ -346,7 +346,8 @@ footer{
     font-size: 40px;
     margin: 15px 0;
     font-family: 'Great Vibes',cursive;
-    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    letter-spacing: 3px;
 
 }
 .couple-section .couple p{
