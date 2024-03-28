@@ -304,11 +304,27 @@ footer{
 .home-section .slide.active .home-content span{
     opacity: 0;
     animation: fadeInTop 1s ease forwards;
-    animation-delay: 1s;
+    
 }
 /* couple section */
 .couple-section{
+    background-image: radial-gradient(circle at 52% 37%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 70% 3%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 33%,transparent 33%, transparent 62%,transparent 62%, transparent 100%),radial-gradient(circle at 38% 28%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 94%,transparent 94%, transparent 100%),radial-gradient(circle at 12% 92%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 1%,transparent 1%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 50% 84%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 28%,transparent 28%, transparent 96%,transparent 96%, transparent 100%),radial-gradient(circle at 11% 43%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 20%,transparent 20%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 45% 11%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 19%,transparent 19%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 90% 54%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 11%,transparent 11%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 23% 100%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 35%,transparent 35%, transparent 86%,transparent 86%, transparent 100%),linear-gradient(0deg, rgb(122, 9, 9),rgb(141, 19, 6));
+    /* background-color: #6D1515; */
     padding: 80px 0 80px;
+}
+.couple-section .section-title h2{
+    color: #ffffff;
+    text-shadow:4px 4px #000000;
+}
+.couple-section .slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.couple-section a{
+    background: fixed;
+    text-decoration: none;
 }
 .couple-section .couple{
     flex: 0 0 50%;
@@ -330,7 +346,7 @@ footer{
     position: absolute;
     left: -15px;
     width: 31px;
-    background-color: #f3f2f1;
+    /* background-color: #6D1515; */
     padding: 5px;
     text-align: center;
     font-size: 18px;
@@ -353,7 +369,7 @@ footer{
 .couple-section .couple p{
     font-size: 20px;
     line-height: 26px;
-    color: #555555;
+    color: #ffffff;
     font-family:"DM Serif Display",serif;
     font-weight: 500;
     margin: 0;
@@ -363,8 +379,10 @@ footer{
 .event-section{
     padding: 80px 0 130px;
 }
+
 .event-section .section-title h2{
     color: #000000;
+    text-shadow: 2px 2px white;
 }
 .event-section .event-item{
     flex: 0 0 33.33%;
@@ -377,7 +395,8 @@ footer{
     transform: translateY(50px);
 }
 .event-section .event-item-inner{
-    background-color: #ffffff;
+    background-image: radial-gradient(circle at 52% 37%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 70% 3%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 33%,transparent 33%, transparent 62%,transparent 62%, transparent 100%),radial-gradient(circle at 38% 28%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 94%,transparent 94%, transparent 100%),radial-gradient(circle at 12% 92%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 1%,transparent 1%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 50% 84%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 28%,transparent 28%, transparent 96%,transparent 96%, transparent 100%),radial-gradient(circle at 11% 43%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 20%,transparent 20%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 45% 11%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 19%,transparent 19%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 90% 54%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 11%,transparent 11%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 23% 100%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 35%,transparent 35%, transparent 86%,transparent 86%, transparent 100%),linear-gradient(0deg, rgb(122, 9, 9),rgb(141, 19, 6));
+    /* background-color: #6D1515; */
     padding: 60px 45px 100px;
     text-align: center;
     box-shadow: 0 0 10px #888888;
@@ -398,11 +417,12 @@ footer{
 }
 .event-section .event-item-inner h3{
     color: #000000;
+    text-shadow: 1px 1px grey;
     font-weight: 500;
     font-size: 24px;
     margin: 0 0 15px;
     text-transform: capitalize;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
     display: inline-block;
 }
@@ -417,7 +437,7 @@ footer{
 .event-section .event-item-inner p{
     font-size: 16px;
     line-height: 26px;
-    color: #555555;
+    color: #ffffff;
     margin: 0;
 }
 .event-section .event-item-inner img{
@@ -430,7 +450,13 @@ footer{
 }
 /* families section */
 .families-section{
+    background-image: radial-gradient(circle at 52% 37%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 70% 3%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 33%,transparent 33%, transparent 62%,transparent 62%, transparent 100%),radial-gradient(circle at 38% 28%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 15%,transparent 15%, transparent 94%,transparent 94%, transparent 100%),radial-gradient(circle at 12% 92%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 1%,transparent 1%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 50% 84%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 28%,transparent 28%, transparent 96%,transparent 96%, transparent 100%),radial-gradient(circle at 11% 43%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 20%,transparent 20%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 45% 11%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 19%,transparent 19%, transparent 65%,transparent 65%, transparent 100%),radial-gradient(circle at 90% 54%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 11%,transparent 11%, transparent 19%,transparent 19%, transparent 100%),radial-gradient(circle at 23% 100%, hsla(165,0%,91%,0.05) 0%, hsla(165,0%,91%,0.05) 35%,transparent 35%, transparent 86%,transparent 86%, transparent 100%),linear-gradient(0deg, rgb(122, 9, 9),rgb(141, 19, 6));
+    /* background-color: #6D1515; */
     padding: 80px 0 80px;
+}
+.families-section .section-title h2{
+    color: white;
+    text-shadow: 4px 4px black;
 }
 .families-section .families-filter{
     padding: 0 15px;
@@ -441,7 +467,7 @@ footer{
 }
 .families-section .filter-btn{
     background-color: #dedede;
-    color: #555555;
+    color: black;
     padding: 7px 15px;
     display: inline-block;
     margin: 0 3px;
@@ -450,7 +476,7 @@ footer{
     text-decoration: none;    
 }
 .families-section .filter-btn.active{
-    color: #ffffff;
+    color: black;
 }
 .families-section .families-item{
     flex: 0 0 100%;
