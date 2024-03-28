@@ -8,14 +8,14 @@ body.dark .header .nav ul li a.active,
 header .nav ul li a.active,
 body.dark .header .nav ul li a:hover,
 header .nav ul li a:hover{
-    color: #ffc87c;
+    color: #f9b949;
 }
 .event-section .event-item-inner :before,
 .couple-section .couple img{
-    border-color: #ffc87c;
+    border-color: #f9b949;
 }
 .preloader .loader:before{
-    border-right-color: #ffc87c;
+    border-right-color: #f9b949;
 }
 .event-section .event-item-inner img,
 .footer .footer-content .couple-name img{
@@ -27,6 +27,6 @@ body.dark .families-section .filter-btn.active,
 .families-section .filter-btn.active,
 .event-section,
 .couple-section a:hover i{
-    background-color: #ffc87c;
+    background-color: #f9b949;
 }
 
