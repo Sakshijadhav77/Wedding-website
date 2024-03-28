@@ -354,7 +354,7 @@ footer{
 }
 .couple-section .couple img{
     max-width: 280px;
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
     border: 10px solid transparent;
 }
