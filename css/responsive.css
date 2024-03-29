@@ -76,11 +76,6 @@
     .footer .footer-content .couple-name h2{
         font-size: 28px;
     } */
-}
-@media(max-width: 288px){
-    .footer .slide-2{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+
 }
 }
