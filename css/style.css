@@ -415,10 +415,11 @@ footer{
     z-index: -1;
 }
 .event-section .event-item-inner h3{
+    font-family: 'Great Vibes',cursive;
     color: #ffffff;
     text-shadow: 3px 3px black;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 30px;
     margin: 0 0 15px;
     text-transform: capitalize;
     border-bottom: 1px solid #ffffff;
