@@ -381,7 +381,8 @@ footer{
 }
 
 .event-section .section-title h2{
-    color: #000000;
+    color: black;
+    text-shadow: 2px 2px white;
 }
 .event-section .event-item{
     flex: 0 0 33.33%;
