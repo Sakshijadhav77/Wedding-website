@@ -22,7 +22,6 @@ header .nav ul li a:hover{
     filter: hue-rotate(396rad);
 }
 .setting .s-toggle-btn,
-.footer,
 body.dark .families-section .filter-btn.active,
 .families-section .filter-btn.active,
 .event-section,
