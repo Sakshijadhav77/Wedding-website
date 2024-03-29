@@ -398,7 +398,7 @@ footer{
     /* background-color: #6D1515; */
     padding: 60px 45px 100px;
     text-align: center;
-    box-shadow: 0 0 10px #888888;
+    box-shadow: 0 0 10px #000000;
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
@@ -619,10 +619,12 @@ iframe{
     margin-top: 30px;
 }
 .merge {
-    padding: 20px;
-    background: linear-gradient(rgb(122, 9, 9),#f9b949);
+    padding: 1px;
+    background-color: #000000;
+    /* background: linear-gradient(rgb(122, 9, 9),#f9b949); */
 }
 .merge-2 {
-    padding: 20px;
-    background: linear-gradient(#f9b949,rgb(122, 9, 9));
+    padding: 1px;
+    background-color: #000000;
+    /* background: linear-gradient(#f9b949,rgb(122, 9, 9)); */
 }
