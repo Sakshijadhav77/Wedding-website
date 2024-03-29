@@ -417,6 +417,7 @@ footer{
 }
 .event-section .event-item-inner h3{
     font-family: 'Great Vibes',cursive;
+    letter-spacing: 1px;
     color: #ffffff;
     text-shadow: 3px 3px black;
     font-weight: 600;
